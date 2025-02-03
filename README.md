@@ -1,5 +1,5 @@
 <a href="https://www.internationalanimalrescue.org/projects/orangutan/budi">
-    <img src="https://i.ytimg.com/vi/RSeK437y03c/maxresdefault.jpg" width="100%" height="auto"/>
+    <img src="./assets/budimonke.jpg" width="100%" height="auto"/>
 </a>
 
 <br>
