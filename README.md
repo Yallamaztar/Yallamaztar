@@ -20,7 +20,7 @@ printWelcomeMessage( profile ) {
     self IPrintLn( "^2Welcome to my GitHub profile!" );
     self IPrintLn( "^1Status:^7 " + profile.status );
     self IPrintLn( "^3Currently working on:^7 " + profile.currentProjects[randomInt(self.projects.size)] );
-    self IPrintLn( "^5Coding languages:^7 " + formatArray(profile.languages) );
+    self IPrintLn( "^5Coding languages:^7 " + profile.languages );
 }
 ```
 
