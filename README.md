@@ -13,7 +13,7 @@ init() {
     profile.currentProjects = [ "T6HTTPLib", "iw4m" ];
     profile.status = "AFK";
 
-    self thread printWelcomeMessage( profile );
+    thread printWelcomeMessage( profile );
 }
 
 printWelcomeMessage( profile ) {
