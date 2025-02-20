@@ -9,7 +9,7 @@
 init() {
     profile = SpawnStruct();
     profile.name = "Budiworld";
-    profile.languages = [ "Python", "Javascript", "GSC" ];
+    profile.languages = [ "Python", "Javascript", "Rust", "GSC" ];
     profile.currentProjects = [ "T6HTTPLib", "iw4m" ];
     profile.status = "AFK";
 
