@@ -1,5 +1,5 @@
 <a href="https://www.internationalanimalrescue.org/projects/orangutan/budi">
-    <img src="./assets/budimonke.jpg" width="100%" height="auto"/>
+    <img src="./assets/budimonke.jpg" width="100%" height="auto" alt="Support budi"/>
 </a>
 
 <br>
@@ -9,18 +9,9 @@
 init() {
     profile = SpawnStruct();
     profile.name = "Budiworld";
-    profile.languages = [ "Python", "Javascript", "Rust", "GSC" ];
-    profile.currentProjects = [ "T6HTTPLib", "iw4m", "achievements" ];
-    profile.status = "AFK";
-
-    thread printWelcomeMessage( profile );
-}
-
-printWelcomeMessage( profile ) {
-    self IPrintLn( "^2Welcome to my GitHub profile!" );
-    self IPrintLn( "^1Status:^7 " + profile.status );
-    self IPrintLn( "^3Currently working on:^7 " + profile.currentProjects[randomInt(self.projects.size)] );
-    self IPrintLn( "^5Coding languages:^7 " + profile.languages );
+    profile.languages = [ "Python", "Go", "GSC" ];
+    profile.currentProjects = [ "go-iw4m", "iw4m", "achievements" ];
+    profile.status = "Idle";
 }
 ```
 
